@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@module-federation/nextjs-mf": "^6.4.0",
     "@nrwl/next": "^15.9.2",
     "next": "13.1.1",
     "react": "18.2.0",

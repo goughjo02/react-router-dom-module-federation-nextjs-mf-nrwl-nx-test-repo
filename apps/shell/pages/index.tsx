@@ -1,4 +1,5 @@
-import styles from "./index.module.css";
+import HelloWorld from '../components/HelloWorld';
+import styles from './index.module.css';
 
 export function Index() {
   /*
@@ -8,6 +9,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <HelloWorld />
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
@@ -292,8 +294,8 @@ export function Index() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {" "}
-                  What is Nx Cloud?{" "}
+                  {' '}
+                  What is Nx Cloud?{' '}
                 </a>
               </div>
               <a
