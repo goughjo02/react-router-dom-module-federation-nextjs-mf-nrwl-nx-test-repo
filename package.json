@@ -2,7 +2,9 @@
   "name": "rrdtest",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx"
+  },
   "private": true,
   "dependencies": {
     "@module-federation/nextjs-mf": "^6.4.0",
