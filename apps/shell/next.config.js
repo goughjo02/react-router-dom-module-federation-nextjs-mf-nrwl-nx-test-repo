@@ -24,7 +24,9 @@ const nextConfig = {
           './HelloWorld': './components/HelloWorld',
         },
         remotes: {},
-        shared: {},
+        shared: {
+          'react-router-dom': { singleton: true, requiredVersion: false },
+        },
         extraOptions: {
           // exposePages: true,
           automaticAsyncBoundary: true,
