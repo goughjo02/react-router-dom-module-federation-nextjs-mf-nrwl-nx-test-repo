@@ -2,13 +2,13 @@
   "name": "rrdtest",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
   "dependencies": {
+    "@nrwl/next": "^15.9.2"
   },
   "devDependencies": {
-    "nx": "15.9.2",
-    "@nrwl/workspace": "15.9.2"
+    "@nrwl/workspace": "15.9.2",
+    "nx": "15.9.2"
   }
 }
